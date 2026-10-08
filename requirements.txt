@@ -1,0 +1,11 @@
+streamlit>=1.51,<2
+pandas>=2.0,<3
+numpy>=1.26,<3
+scipy>=1.11,<2
+statsmodels>=0.14,<1
+scikit-learn>=1.4,<2
+plotly>=5.20,<7
+matplotlib>=3.8,<4
+seaborn>=0.13,<1
+requests>=2.31,<3
+Pillow>=10,<12
