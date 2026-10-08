@@ -9,10 +9,15 @@ A Streamlit application for exploring the UCI Student Performance dataset and co
 ├── app.py                                      # Streamlit dashboard entry point
 ├── analysis_utils.py                           # Data loading, statistics, and model helpers
 ├── requirements.txt                            # Python dependencies
-├── student-por.csv                             # Portuguese-course UCI dataset
-├── 01_final_grade_distribution.png             # Supplied static chart
-├── DATA200_Analysis_Colab.ipynb                # Analysis notebook
-└── DATA200_TeamUnited_Final_Presentation_4_People_Equal.pptx
+├── data/
+│   └── student-por.csv                         # Portuguese-course UCI dataset
+├── assets/
+│   └── visuals/
+│       └── 01_final_grade_distribution.png     # Supplied static chart
+├── notebooks/
+│   └── DATA200_Analysis_Colab.ipynb             # Analysis notebook
+└── presentation/
+	└── DATA200_TeamUnited_Final_Presentation_4_People_Equal.pptx
 ```
 
 The local `.venv/`, Python caches, editor settings, and Streamlit secrets are excluded by `.gitignore`.
@@ -40,7 +45,7 @@ Then open the local URL printed by Streamlit, usually `http://localhost:8501`.
 
 ## Dataset
 
-The bundled CSV is the Portuguese-language subset of the UCI Student Performance dataset. The app uses the bundled file when present and can also load a compatible CSV through the sidebar. The data is observational; associations and predictions do not establish causation.
+The bundled CSV is the Portuguese-language subset of the [UCI Student Performance dataset](https://archive.ics.uci.edu/dataset/320/student+performance). The app uses the bundled file when present and can also load a compatible CSV through the sidebar. The data is observational; associations and predictions do not establish causation.
 
 ## Deployment
 
